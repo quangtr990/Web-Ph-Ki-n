@@ -1,0 +1,9 @@
+restart: 
+libname := libname,"C:/Users/TOM/Desktop/WebApplication1/WebApplication1/KB-IE/": 
+with(problemsolving): 
+H:={BAI_TAP = "HNNT",eV=1.6*10^(-19),u=1.66055*10^(-27)}: 
+G:={E}: 
+Init(): 
+Sol:=FindSolution(H, G): 
+duongdan:="C:/Users/TOM/Desktop/WebApplication1/WebApplication1/Solved/eofk3ytr5c1_ketqua.html": 
+OutPutSolution(Sol, duongdan): 

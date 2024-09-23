@@ -1,0 +1,9 @@
+restart: 
+libname := libname,"C:/Users/TOM/Desktop/WebApplication1/WebApplication1/KB-IE/": 
+with(problemsolving): 
+H:={KIEU_MAC = "NOI_TIEP", l1 = 5, l2 = 3, S1 = 0.002, S2 = 0.006}: 
+G:={R1, R2}: 
+Init(): 
+Sol:=FindSolution(H, G): 
+duongdan:="C:/Users/TOM/Desktop/WebApplication1/WebApplication1/Solved/dfcilucvoez_ketqua.html": 
+OutPutSolution(Sol, duongdan): 

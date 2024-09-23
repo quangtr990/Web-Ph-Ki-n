@@ -1,0 +1,9 @@
+restart: 
+libname := libname,"C:/Users/TOM/Desktop/WebApplication1/WebApplication1/KB-IE/": 
+with(problemsolving): 
+H:={KIEU_MAC = "SONG_SONG", R1 = 150, R2 = 300, U = 12}: 
+G:={R}: 
+Init(): 
+Sol:=FindSolution(H, G): 
+duongdan:="C:/Users/TOM/Desktop/WebApplication1/WebApplication1/Solved/32tgq2wcs32_ketqua.html": 
+OutPutSolution(Sol, duongdan): 

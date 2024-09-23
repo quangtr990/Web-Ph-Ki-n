@@ -1,0 +1,9 @@
+restart: 
+libname := libname,"C:/Users/TOM/Desktop/WebApplication1/WebApplication1/KB-IE/": 
+with(problemsolving): 
+H:={lamda = 0.7*10^(-6)}: 
+G:={epsilon}: 
+Init(): 
+Sol:=FindSolution(H, G): 
+duongdan:="C:/Users/TOM/Desktop/WebApplication1/WebApplication1/Solved/2i2eo3qgilz_ketqua.html": 
+OutPutSolution(Sol, duongdan): 

@@ -1,0 +1,9 @@
+restart: 
+libname := libname,"C:/Users/TOM/Desktop/WebApplication1/WebApplication1/KB-IE/": 
+with(problemsolving): 
+H:={BAI_TAP="LTAS",lamda=0.25*10^(-6),Wdmax=1.8975*1.6*10^(-19)}: 
+G:={lamda0}: 
+Init(): 
+Sol:=FindSolution(H, G): 
+duongdan:="C:/Users/TOM/Desktop/WebApplication1/WebApplication1/Solved/ed4h1bctkah_ketqua.html": 
+OutPutSolution(Sol, duongdan): 

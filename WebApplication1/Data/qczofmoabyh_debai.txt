@@ -1,0 +1,9 @@
+restart: 
+libname :=libname,"D:/DAI HOC QUOC TE HONG BANG/GIANG-DAY/2023-2024/HKII/HE CO SO TRI THUC VA UNG DUNG/ThucHanh/WebApplication1/WebApplication1/KB-IE/": 
+with(problemsolving): 
+H:={U=20, R=10}: 
+G:={_I}: 
+Init(): 
+Sol:=FindSolution(H, G): 
+duongdan:="D:/DAI HOC QUOC TE HONG BANG/GIANG-DAY/2023-2024/HKII/HE CO SO TRI THUC VA UNG DUNG/ThucHanh/WebApplication1/WebApplication1/Solved/qczofmoabyh_ketqua.html": 
+OutPutSolution(Sol, duongdan): 
